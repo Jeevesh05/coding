@@ -1,0 +1,19 @@
+<div class="outer">
+    <a href="#">click</a>
+    <p>hello</p>
+</div>
+
+<script>
+    document.querySelector('.outer').addEventListener('click',function(e){
+        e.preventDefault();
+        alert('div');
+    });
+    document.querySelector('.outer a').addEventListener('click',function(e){
+        e.stopPropagation();
+        alert('Link');
+    });
+    document.querySelector('.outer p').addEventListener('click',function(e){
+        e.stopPropagation();
+        alert('Paraghaph');
+    });
+</script>

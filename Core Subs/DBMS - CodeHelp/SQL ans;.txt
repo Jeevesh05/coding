@@ -1,0 +1,49 @@
+1. 
+SELECT c.CustomerID,c.Name,AVG(o.Amount) AS AveragePurchase 
+FROM Customers c
+INNER JOIN Orders o ON
+c.CustomerID = o.CustomerID
+GROUP BY o.CustomerId,c.Name;
+
+2.
+SELECT e1.EmployeeId,e1.Name,e1.DepartmentId,Salary
+FROM employees e1
+WHERE Salary = (SELECT MIN(Salary FROM Employees e2 WHERE
+e2.DepartmentID = e1.DepartmentID);
+
+3.
+SELECT p.ProductID, p.ProductName
+FROM Products p
+WHERE p.ProductID NOT IN (SELECT s.ProductID FROM Sales s);
+
+or 
+
+SELECT p.ProductID, p.ProductName
+FROM Products p
+LEFT JOIN Sales s ON p.ProductID = s.ProductID
+WHERE s.ProductID IS NULL;
+
+4.
+
+
+5.
+SELECT CustomersID,MIN(orderDate) as Earliiest 
+FROM Orders
+GROUP BY CustomerID;
+
+6.
+SELECT ManagerID, COUNT(*) AS NumberOfReports
+FROM Employees
+WHERE ManagerID IS NOT NULL
+GROUP BY ManagerID;
+
+7.
+
+
+
+
+
+
+
+
+

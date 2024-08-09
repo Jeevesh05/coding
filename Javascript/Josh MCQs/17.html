@@ -1,0 +1,25 @@
+<!-- how div and nac will be treated by the browser engine -->
+<div>
+    <a href="#">Link1</a>
+    <a href="#">Lnk2</a>
+</div>
+
+<nav>
+    <a href="#">Link1</a>
+    <a href="#">Lnk2</a>
+</nav>
+
+<!-- 
+Browser Treatment
+Rendering: By default, both <div> and <nav> are block-level elements, meaning they will occupy the full width available and start on a new line.
+Semantic Meaning:
+<div>: Generic, no semantic meaning. Often used for layout and styling.
+<nav>: Semantic meaning indicating navigation links. Improves accessibility and SEO.
+Default Styles: Browsers typically apply minimal default styles to these elements. The key difference lies in their semantic meaning.
+
+
+
+By default, both sections will look identical to the user:
+
+Links inside both <div> and <nav> will be rendered as inline elements.
+They will appear next to each other if there is enough horizontal space. -->

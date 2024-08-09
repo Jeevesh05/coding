@@ -1,0 +1,16 @@
+<div id="Box-1" onclick="(function(){
+    console.log('Box 1 clicked.');
+})()">
+
+    <div id="Box-2" onclick="(function(event){
+        console.log('Box 2 clicked.');
+        event.stopPropagation();
+    })(event)">
+
+        <div id="Box-3" onclick="(function(){
+            console.log('Box 3 clicked.');
+        })()">
+            Click ME
+        </div>  
+    </div>
+</div>

@@ -1,0 +1,5 @@
+road map to add a feature :
+
+1. create a route use, resource <jisko handle karna ha eg articles>
+2. bin/rails generate conrtroller Articles index --skip routes
+3. bin/rails generate model Article title:string body:text

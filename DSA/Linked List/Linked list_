@@ -1,0 +1,69 @@
+#include<stdio.h>
+#include<stdlib.h>
+struct LinkedList
+{
+    int E;
+    struct LinkedList * next;
+};
+struct LinkedList * Head;
+void InsBeg()
+{
+struct LinkedList * T;
+T=(struct LinkedList *)malloc(sizeof(struct LinkedList));
+scanf("%d",&T->E);
+T->next=NULL;
+T->next=Head;
+Head=T;
+}
+void InsLast()
+{
+    struct LinkedList * T,*N;
+    T=(struct LinkedList *) malloc(sizeof(struct LinkedList));
+    scanf("%d",&T->E);
+    T->next=NULL;
+    N=Head;
+    while(N->next!=NULL)
+    {
+        N=N->next;
+    }
+    N->next=T;
+}
+void Display()
+{
+    struct LinkedList * N;
+    N=Head;
+    while(N!=NULL)
+    {
+        printf("\n Data is =%d",N->E);
+        N=N->next;
+    }
+}
+void main() 
+{
+    int i;
+    struct LinkedList * T,*N;
+    Head=NULL;
+    int n=3;
+    for(i=1;i<=3;i++)
+    {
+        T=(struct LinkedList *)malloc(sizeof(struct LinkedList));
+        scanf("%d",&T->E);
+        T->next=NULL;
+   if (Head==NULL)
+    Head=T;
+    else
+    {
+        N=Head;
+        while(N->next!=NULL)
+            {
+            N=N->next;
+            }
+        N->next=T;
+    }
+    }
+Display();
+InsLast();
+Display();
+InsBeg();
+Display();
+}

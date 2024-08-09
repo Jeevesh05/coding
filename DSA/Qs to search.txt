@@ -1,0 +1,3 @@
+1. printf vs cout in c++
+2. why do we have to add path of minGW(bin) to environment variables(we do this in starting) : https://www.youtube.com/watch?v=0yn7irrHzM8
+3. why using space in name of the file/folder causes trouble while running the code

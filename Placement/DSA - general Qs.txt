@@ -1,0 +1,25 @@
+file structure vs storage structure
+data vs data types vs data structures vs file structures
+prefix to postfix
+define linked list - advatages,
+queue and its application
+disadvatages of 
+tree data- types,binary tree,avl - useful, Btree and B + tree
+graph - cylce vs graph
+adjaceny 
+BFS DFS
+applicatons of graph
+when binary search can be used
+adv of selection sort
+operations performed on stack
+adv heap over stack
+merge sort
+examples of divide and conquer algo
+do dynamic memory allocation help in managing data
+ways to determine LL ha loop or not
+max heap structure
+height of tree
+
+	DBMS
+normilization
+joins

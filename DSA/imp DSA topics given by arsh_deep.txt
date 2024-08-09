@@ -1,0 +1,12 @@
+arrays
+sparse matrix
+search techniquues
+sorting tech
+linkedlist : singly,circular,doubly
+hashing
+trees  : infix,prefix,postfix
+stacks :insertion and deletion
+queus : insertion and deletion,parenthesis checking
+graphs
+
+prefix and post fix mathematical evaluation

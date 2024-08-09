@@ -1,0 +1,6 @@
+NodeList is not exactly an array. Look into the prototype to know which functions are available for NodeList.
+like forEach is available but not map function.
+
+
+HTML collection is again different from NodeList
+return type of documnet.getElementsByClassName('listItem')

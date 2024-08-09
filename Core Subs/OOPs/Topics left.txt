@@ -1,0 +1,9 @@
+upcasting and downcasting + virtual functions
+lambda
+interface or interfarence something
+use of different types of inheritance like multiple,multilevel,hybrid
+add advantages of poly,abst,encaps in code base
+
+virtual function
+friend function
+diamond shape problem
