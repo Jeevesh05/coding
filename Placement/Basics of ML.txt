@@ -1,0 +1,9 @@
+Different types of data
+what you do with data? first check is it useful(is data missing or not -- supplement data or delete it)
+how to supplement? replace missing data with mean/median/mode
+Histogram ploted on data can be:Normal/skew
+
+
+1. data set
+2. data cleaning
+3. EDA(explorarity data) data is skewed or ..,data model is outlier?(using BoxPlot in python)

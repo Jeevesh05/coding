@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ul id="outside">
+            <li id="inside" class="collection">how </li>
+            <li id="inside" class="collection">are</li>
+            <li id="inside" class="collection">you</li>
+        </ul>
+    </div>
+    
+    <p>Paragraph One</p>
+    <p>Paragraph Two</p>
+    <p>Paragraph Three</p>
+
+</body>
+<script>
+    // gives a NodeList
+    const MyNodeList = document.querySelectorAll('.collection');
+    console.log(MyNodeList);
+    //gives an HTML collection
+    const MyColl = document.getElementsByClassName('collection')
+    console.log(MyColl);
+
+    
+    //demo to show Collections are live
+    const paragraphs = document.getElementsByTagName('p')
+    console.log("BEFORE UPDATE: ", paragraphs)
+    const newParagraph = document.createElement('p')
+    document.body.appendChild(newParagraph)
+    console.log("AFTER UPDATE: ", paragraphs)
+    //look what to do so that this new para is shown on webpage
+    
+
+    document.querySelector('#inside').addEventListener('click',function(e){
+        console.log("inside was clicked");
+    },false);
+    document.querySelector('#outside').addEventListener('click',function(e){
+        console.log("outside was clicked");
+    },true);
+
+</script>
+</html>

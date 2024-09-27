@@ -1,0 +1,12 @@
+body{
+    background-color: pink;
+}
+div{
+    background-color: blueviolet;
+    display:inline-block;
+}
+button{
+    height:100px;
+    width: 100px;
+    margin: 30px 30px;
+}

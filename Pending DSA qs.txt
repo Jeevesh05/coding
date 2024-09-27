@@ -1,0 +1,7 @@
+https://www.geeksforgeeks.org/problems/sort-a-stack/1
+https://www.javatpoint.com/sort-a-stack-using-a-temporary-stack
+
+https://www.geeksforgeeks.org/sort-matrix-row-wise-column-wise/
+https://www.geeksforgeeks.org/sort-given-matrix/
+
+https://www.youtube.com/watch?v=OXdXc9HTrIg

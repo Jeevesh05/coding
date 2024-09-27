@@ -1,0 +1,6 @@
+types of functions?
+
+Event Propagation : event bubling & capturing
+	stop Propagation, Immediate Propagation & prevent defaul
+
+event delegation

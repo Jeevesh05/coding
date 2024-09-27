@@ -1,0 +1,20 @@
+Different types of data
+what you do with data? first check is it useful(is data missing or not -- supplement data or delete it)
+how to supplement? replace missing data with mean/median/mode
+Histogram ploted on data can be:Normal/skew
+
+
+1. data set
+[custName,ProductName,Qty,MOdel,Color] X (independent variable)=>customerOccupation Y(Dependent Variable)
+how much a particular column or property is imp to predict result - Corelation matrix
+correlation >= 0.5(acceptable value)
+corelation can be positive and negative 
++ve => High salary => expenses
+-ve => low marks => high plays(outdoor activities)
+2. data cleaning
+3. EDA(explorarity data) data is skewed or ..,data model is outlier?(using BoxPlot in python)
+4. Prediction model: Supervised OR unsupervised or semi-supervised OR reinforced
+	(x= input, y = output) to make Model Learn 500(x=train, y=train)
+	200 Rows (x=test 200 rows, y out 200 rows) ans from Model
+	Y out(200 rows)(Answer Sheet) vs y test(200 rows)(Answer Key)
+5. 
