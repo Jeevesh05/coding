@@ -1,0 +1,40 @@
+go mod init <what thw module is about>
+go run main.go
+
+
+how to build 
+go env and look for GOOS="darwin" (Go running on which os)
+go build (will use default GOOS)
+GOOS="windows" go build
+
+
+
+Regarding mod file in go:
+1. It allows you to specify which external packages your 
+module depends on, making it easier to manage and maintain those dependencies.
+2. The file helps track the version of dependencies, enabling reproducible builds.
+
+
+Initialize a New Module:
+go mod init <module-name>
+This creates a new go.mod file for your project.
+
+
+Add a Dependency:
+go get <package>
+This command fetches a new dependency and updates the go.mod file automatically.
+
+
+Remove a Dependency:
+go mod tidy
+This cleans up the go.mod file by removing unused dependencies.
+
+
+View Dependency Graph:
+go mod graph
+This shows the dependency graph of your module.
+
+
+Update Dependencies:
+go get -u
+This command updates all dependencies to their latest versions.
